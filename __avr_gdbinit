@@ -1,0 +1,6 @@
+define reset
+SIGNAL SIGHUP
+end
+file .build/splitkb_kyria_rev2_john-ezra.elf
+target remote localhost:4242
+break main
